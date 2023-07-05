@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title> OVERLOAD </title>
+</head>
+
+<body>
+    
+    <div class="modal-container">
+        <!-- Окно модалки -->
+        <div class="modal-content">
+            <p class="modal__title"> Поздравляю! </p>
+            <p class="modal__text"> Ты попался на <b>болванку</b>, твой звонок "переведен" в психиатрическую больницу №6. Хорошего дня! </p>
+            <input type="button" value="ЗАКРЫТЬ" class="feedbackBTN close">
+        </div>
+    </div>
+
+    <header class="header">
+
+        <div class="container">
+            <nav class="header__menu">
+                <a href="/index.html"> <img src="/img/home/LOGO.svg" alt="logo"> </a>
+                
+                <!-- бургер с видоса! -->
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                
+                <ul class="header__list">
+                    <li class="header__list-item active"><a href="/index.html"> HOME </a></li>
+                    <li class="header__list-item"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="header__list-item"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <a href="#"><img src="/img/ARROW.png" alt="arrow" class="arrow"></a>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title"> НИКАКИХ "МОЖНО" И "НЕЛЬЗЯ", ТОЛЬКО: </h1>
+
+                <section class="hero__body">
+                    <svg class="love icon">
+                        <use xlink:href="../sprite.svg#HOMElove"></use>
+                    </svg>
+                    <svg class="price icon">
+                        <use xlink:href="../sprite.svg#HOMEprice"></use>
+                    </svg>
+                    <svg class="handshake icon">
+                        <use xlink:href="../sprite.svg#HOMEhandshake"></use>
+                    </svg>
+
+                    <h3 class="hero__desc"> ПРИВЕТЛИВЫЙ ПЕРСОНАЛ </h3>
+                    <h3 class="hero__desc"> ДЕМОКРАТИЧНЫЕ ЦЕНЫ </h3>
+                    <h3 class="hero__desc"> ИСКРЕННИЙ ПОДХОД К РЕМОНТУ </h3>
+                </section>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="container">
+                <h2 class="process__title"> КАК МЫ РАБОТАЕМ? </h2>
+
+                <section class="process__body">
+                    <svg class="HOMErunning icon">
+                        <use xlink:href="../sprite.svg#HOMErunning"></use>
+                    </svg>
+                    <svg class="HOMEmed icon">
+                        <use xlink:href="../sprite.svg#HOMEmed"></use>
+                    </svg>
+                    <svg class="HOMErocket icon">
+                        <use xlink:href="../sprite.svg#HOMErocket"></use>
+                    </svg>
+
+                    <h3 class="process__text first__text"> ПРИХОДИТЕ ИЛИ ЗВОНИТЕ </h3>
+                    <h3 class="process__text second__text"> ОЦЕНКА ПОВРЕЖДЕНИЙ </h3>
+                    <h3 class="process__text third__text"> НАЧАЛО РАБОТЫ </h3>
+
+                    <p class="process__desc"> Зайдите к нам по адресу или напишите/позвоните в любом мессенджере и
+                        Расскажите свою проблему, мы выслушаем и подберем решение </p>
+                    <p class="process__desc"> Когда вы принесете свой инструмент в сервис или закажете выезд мастера -
+                        мастер сразу оценит масштаб работ и озвучит точную неизменяемую стоимость ремонта </p>
+                    <p class="process__desc"> Получив согласие мы начинаем работу, по окончанию которой звоним на ваш
+                        телефон и высылаем письмо на email, оплата после результата, на все работы дается гарантия 6
+                        месяцев </p>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="repairType">
+            <div class="container">
+                <h2 class="repairType__title"> КАКОЙ РЕМОНТ МЫ ДЕЛАЕМ? </h2>
+
+                <section class="repairType__block">
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> РЕМОНТ КОРПУСА </h4>
+                        <img src="/img/home/body.png" alt="body" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Ремонт потертостей, трещин </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Ремонт креплений </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Замена деки/грифа в тяжелом состоянии </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> РЕМОНТ ЛАДОВ </h4>
+                        <img src="/img/home/frets.png" alt="frets" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Осмотр и замена ладов </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Полировка </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Выравнивание </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> ЭЛЕКТРОНИКА </h4>
+                        <img src="/img/home/electronyc.png" alt="electronyc" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Осмотр и замена звукоснимателей </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Ремонт проводки </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Ремонт датчиков </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> ЭЛЕМЕНТЫ </h4>
+                        <img src="/img/home/elements.png" alt="elements" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Косметические работы </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Замена элементов </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Изготовление накладок </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> АПГРЕЙД ЭЛЕКТРОНИКИ </h4>
+                        <img src="/img/home/upgrade.png" alt="upgrade" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Модификация электроники </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Персонализированный апгрейд </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="repairType-item">
+                        <h4 class="repairType__text"> УСИЛИТЕЛИ И ПЕДАЛИ </h4>
+                        <img src="/img/home/amp&pedals.png" alt="amp&pedals" class="repairTypeImg">
+                        <ul class="repairType__list">
+                            <li>
+                                <p class="repairType__desc"> Ремонт и замена магнитов, динамиков, потенциометров </p>
+                            </li>
+                            <li>
+                                <p class="repairType__desc"> Контакты, пластик </p>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="sponsors wrapper">
+            <h2 class="sponsors__title"> НАШИ СПОНСОРЫ </h2>
+            <section class="sponsors__listImg slider-wrapper">
+                <div class="slide active"><img src="/img/home/sponsors/yamaha.png" alt="yamaha" class="sponsors__img">
+                </div>
+                <div class="slide"><img src="/img/home/sponsors/ONEepiphone.png" alt="epiphone" class="sponsors__img">
+                </div>
+                <div class="slide"><img src="/img/home/sponsors/vox.png" alt="vox" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/ONEmarshall.png" alt="marshall" class="sponsors__img">
+                </div>
+                <div class="slide"><img src="/img/home/sponsors/ONEjackson.png" alt="jackson" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/ibanez.webp" alt="ibanez" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/schecter.jpg" alt="schecter" class="sponsors__img">
+                </div>
+                <div class="slide"><img src="/img/home/sponsors/gibson2.png" alt="gibson" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/sennheizer.png" alt="sennheizer" class="sponsors__img">
+                </div>
+                <div class="slide"><img src="/img/home/sponsors/pioneer.webp" alt="pioneer" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/roland.png" alt="roland" class="sponsors__img"></div>
+                <div class="slide"><img src="/img/home/sponsors/ONEfender.png" alt="fender" class="sponsors__img"></div>
+                <div id="btn-prev"></div>
+                <div id="btn-next"></div>
+            </section>
+            <div class="dots-wrapper">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <h2 class="feedback__title"> ОСТАЛИСЬ ВОПРОСЫ? </h2>
+
+                <section class="feedbackWrite">
+                    <h3 class="feedback__text"> НАПИШИТЕ НАМ </h3>
+
+                    <svg class="insta icon">
+                        <use xlink:href="../sprite.svg#insta"></use>
+                    </svg>
+                    <svg class="facebook icon">
+                        <use xlink:href="../sprite.svg#facebook"></use>
+                    </svg>
+                    <svg class="telegram icon">
+                        <use xlink:href="../sprite.svg#telegram"></use>
+                    </svg>
+
+                    <svg class="mail icon">
+                        <use class="useUSEuse" xlink:href="../sprite.svg#mail"></use>
+                    </svg>
+                    <p class="feedback__desc"> businessmail@mail.com </p>
+                </section>
+
+                <h3 class="feedback__text"> ИЛИ </h3>
+
+                <section class="feedbackCallback">
+                    <h3 class="feedback__text"> ЗАКАЖИТЕ ЗВОНОК </h3>
+
+                    <input type="text" class="callbackInput" placeholder="ВАШЕ ИМЯ">
+                    <input type="text" class="callbackInput" placeholder="ТЕЛЕФОН">
+                    <input type="button" value="ЗАКАЗАТЬ" class="callbackBTN open">
+                </section>
+
+                <a href="/html/order.html" class="feedbackBTN"> <input type="button" value="ВИЗИТ МАСТЕРА" class="feedbackBTN"> </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container" style="width: 100%;">
+            <nav class="footer__menu">
+                <p class="description">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="/index.html"> HOME </a></li>
+                    <li class="footer__list-item"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="footer__list-item"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+                <p class="description__phone">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+            </nav>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

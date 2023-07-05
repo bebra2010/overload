@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title> OVERLOAD </title>
+</head>
+<body> 
+    <header class="header">
+
+        <div class="container">
+            <nav class="header__menu">
+                <a href="/index.html"> <img src="/img/home/LOGO.svg" alt="logo"> </a>
+                
+                <!-- бургер с видоса! -->
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="/index.html"> HOME </a></li>
+                    <li class="header__list-item active"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="header__list-item"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <a href="#"><img src="/img/ARROW.png" alt="arrow" class="arrow"></a>
+        <section class="aboutus__address">
+        <div class="container">
+            <h1 class="address__title"> ГДЕ МЫ НАХОДИМСЯ </h1>
+
+            <section class="upperMap">
+                <div class="rightElement">
+                    <svg class="gps icon">
+                        <use xlink:href="../sprite.svg#ABOUTUSgps"></use>
+                    </svg>
+                    <p class="address__text"> xxxxxxxxxxxxxxxxxxxx </p>
+                </div>
+                <div class="leftElement">
+                    <svg class="phone icon">
+                        <use xlink:href="../sprite.svg#ABOUTUSphone"></use>
+                    </svg>
+                    <p class="address__text phone__text"> +88888888888 </p>
+                </div>
+            </section>
+            <section class="middleMap">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A949e41d68e62808cb13d7bd4df07bf2bc50b7e91dfa691531fbfe49736019b5b&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </section>
+            <section class="underMap">
+                <img src="/img/aboutus/WhereUsFirstPic.jpg" alt="workshopPhoto1" class="aboutus__map" id="firstPic">
+                <img src="/img/aboutus/WhereUsSecondPic.jpg" alt="workshopPhoto2" class="aboutus__map" id="secondPic">
+                <img src="/img/aboutus/WhereUsThirdPic.jpg" alt="workshopPhoto3" class="aboutus__map" id="thirdPic">
+                <img src="/img/aboutus/WhereUsFourthPic.jpg" alt="workshopPhoto4" class="aboutus__map" id="fourthPic">
+            </section>
+        </div>
+        </section>
+
+        <section class="aboutus__employees">
+        <div class="container">
+            <h1 class="employees__title"> НАШ ПЕРСОНАЛ </h1>
+
+            <section class="employees__block">
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/5.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Паша Вдругов </p>
+                    <p class="employees__desc"> SMM-маркетолог </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/1.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Стас Капля </p>
+                    <p class="employees__desc"> Главный основатель </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/3.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Имя Фамилия </p>
+                    <p class="employees__desc"> Креативный директор </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/4.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Яй Чайковский </p>
+                    <p class="employees__desc"> Отдел пианино </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/2.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Вова Бова </p>
+                    <p class="employees__desc"> Склад </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/7.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Ламар Яцо </p>
+                    <p class="employees__desc"> Ветеринар </p>
+                </div>
+                <div class="employees-item">
+                    <img src="/img/aboutus/employee/6.png" alt="" class="employees__photo">
+                    <p class="employees__text"> Павел Навяз </p>
+                    <p class="employees__desc"> Кассир-консультант </p>
+                </div>
+            </section>
+            
+        </div>
+        </section>
+
+        <section class="aboutus__brandstory">
+        <div class="container">
+            <h1 class="brandstory__title"> НАША ИСТОРИЯ </h1>
+            <p class="brandstory__text"> Мы только открылись, наша история пишется на ваших глазах (я не придумал) </p>
+        </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container" style="width: 100%;">
+            <nav class="footer__menu">
+                <p class="description">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="/index.html"> HOME </a></li>
+                    <li class="footer__list-item"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="footer__list-item"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+                <p class="description__phone">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+            </nav>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.aboutus__brandstory
+{
+    background-image: url(/img/aboutus/ourHistory.png);
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandstory__title
+{
+    text-align: center;
+    padding: 5%;
+}
+.brandstory__text
+{
+    font-family: "Century Gothic";
+    font-size: larger;
+    color: white;
+}

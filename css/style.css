@@ -1,0 +1,124 @@
+@import url(/css/header.css);
+@import url(/css/footer.css);
+@import url(/css/hero.css);
+@import url(/css/process.css);
+@import url(/css/repairType.css);
+@import url(/css/sponsors.css);
+@import url(/css/feedback.css);
+@import url(/css/aboutus__address.css);
+@import url(/css/aboutus__employees.css);
+@import url(/css/aboutus__brandstory.css);
+@import url(/css/order__prices.css);
+@import url(/css/order__bookAVisit.css);
+
+@font-face { font-family: "Rubik Mono One"; src: url(/fonts/RubikMonoOne.ttf); color: #292929; }
+@font-face { font-family: "Century Gothic"; src: url(/fonts/CenturyGothic.ttf); color: #292929; }
+
+* { padding: 0; margin: 0; }
+body { background-color: white; }
+.container { margin: 0% 10%; }
+
+@media(min-width: 768px)
+{
+  .process__title,
+  .repairType__title,
+  .sponsors__title,
+  .feedback__title,
+  .address__title,
+  .employees__title,
+  .brandstory__title,
+  .bookAVisit__title
+  { font-family: "Rubik Mono One"; font-size: 60px; color: #292929; margin: 10% 0 3% 0; }
+  .arrow
+  {
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    width: 45px;
+    z-index: 1;
+  }
+  .icon
+  {
+    height: 80%;
+    width: 100%;
+  }
+}
+
+.feedback__title, .brandstory__title { color: white; }
+
+@media(max-width: 768px)
+{
+  .process__title,
+  .repairType__title,
+  .sponsors__title,
+  .address__title,
+  .employees__title,
+  .brandstory__title,
+  .bookAVisit__title
+  { font-size: xx-large; font-family: "Rubik Mono One"; color: #292929; margin: 25% 0 3% 0; }
+  .arrow
+  {
+    position: fixed;
+    left: 10px;
+    bottom: 30px;
+    width: 45px;
+    z-index: 1;
+  }
+  .icon
+  {
+    width: 100%;
+    height: 80%;
+  }
+}
+.icon
+{
+  fill: white;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0; 
+  width: 100vw;
+  height: 100vh; 
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none; 
+  opacity: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  width: 100%; 
+  height: 100%; 
+  max-width: 500px; 
+  max-height: 400px; 
+  background-color: #fff; 
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.is-open { 
+  pointer-events: all; 
+  opacity: 1;
+}
+
+.modal__title
+{
+  font-family: "Comfortaa";
+  color: #292929;
+  font-size: 40px;
+  text-align: center;
+}
+.modal__text
+{
+  font-family: "Bahnschrift";
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.employees__title
+{
+    margin: 5%;
+    text-align: center;
+}
+.employees__photo
+{
+    width: 180px;
+}
+.aboutus__employees > .container
+{
+    display: flex;
+    flex-flow: column;
+}
+.employees__block
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.employees-item
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 0 3%;
+    margin-bottom: 3%;    
+}
+.employees-item > p { text-align: center; }
+.employees__text { font-size: 20px; }
+.employees__desc { font-size: 12px; }

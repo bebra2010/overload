@@ -1,0 +1,34 @@
+.repairType__text { font-family: "Rubik Mono One"; text-align: center; }
+.repairType__desc { font-family: "Century Gothic"; }
+
+.repairType__title
+{
+    height: fit-content;
+    text-align: center;
+}
+.repairType > .container
+{
+    display: flex;
+    flex-flow: column;
+}
+.repairType__block
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.repairType-item
+{
+    width: 350px;
+    margin: 1% 1%;
+    justify-content: center;
+}
+
+.repairTypeImg
+{
+    width: 100%;
+    margin: 10px 0;
+}
+.repairType__desc,
+.repairType__list
+{ height: fit-content; }

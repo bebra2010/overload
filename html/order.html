@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title> OVERLOAD </title>
+</head>
+<body>
+
+    <div class="modal-container">
+        <!-- Окно модалки -->
+        <div class="modal-content">
+            <p class="modal__title"> Поздравляю! </p>
+            <p class="modal__text"> Ты попался на <b>болванку</b>, твой звонок "переведен" в психиатрическую больницу №6. Хорошего дня! </p>
+            <input type="button" value="ЗАКРЫТЬ" class="feedbackBTN close">
+        </div>
+    </div>
+
+    <header class="header">
+
+        <div class="container">
+            <nav class="header__menu">
+                <a href="/index.html"> <img src="/img/home/LOGO.svg" alt="logo"> </a>
+                
+                <!-- бургер с видоса! -->
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+                
+                <ul class="header__list">
+                    <li class="header__list-item"><a href="/index.html"> HOME </a></li>
+                    <li class="header__list-item"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="header__list-item active"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <a href="#"><img src="/img/ARROW.png" alt="arrow" class="arrow"></a>
+        <section class="order__prices">
+        <div class="container">
+
+            <h1 class="prices__title"> НАШИ РАСЦЕНКИ </h1>
+            <section class="prices__table">
+                <div class="prices__table-item">
+                    <p class="prices__text"> Ремонт потертостей, трещин </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Ремонт креплений </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Замена деки/грифа в тяжелом состоянии </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Осмотр и замена ладов </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Полировка ладов </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Выравнивание ладов </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Осмотр и замена звукоснимателей </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Ремонт проводки </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Ремонт датчиков </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Косметические работы </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Замена элементов </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Изготовление накладок </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Модификация электроники </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Персонализированный апгрейд </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Ремонт и замена магнитов, динамиков, потенциометров </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+                <div class="prices__table-item">
+                    <p class="prices__text"> Контакты, пластик </p>
+                    <p class="prices__text__price"> price </p>
+                </div>
+                <hr>
+
+            </section>
+
+        </div>
+        </section>
+
+        <section class="order__bookAVisit">
+        <div class="container">
+            <h1 class="bookAVisit__title"> ЗАКАЗАТЬ ВИЗИТ МАСТЕРА </h1>
+            <input type="text" class="callbackInput" placeholder="ВАШЕ ИМЯ">
+            <input type="text" class="callbackInput" placeholder="ВАШ ТЕЛЕФОН">
+            <input type="text" class="callbackInput" placeholder="АДРЕС">
+            <input type="text" class="callbackInput" placeholder="ПОЧТА">
+            <input type="text" class="callbackInput" placeholder="ОПИШИТЕ ПРОБЛЕМУ...">
+            <input type="button" value="ЗАКАЗАТЬ" class="callbackBTN open">
+        </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container" style="width: 100%;">
+            <nav class="footer__menu">
+                <p class="description">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="/index.html"> HOME </a></li>
+                    <li class="footer__list-item"><a href="/html/aboutus.html"> ABOUT US </a></li>
+                    <li class="footer__list-item"><a href="/html/order.html"> ORDER </a></li>
+                </ul>
+                <p class="description__phone">
+                    Overload Workshop since by 1909
+                    <br>All right reserved, by using this site you accept privacy policy, terms and conditions
+                </p>
+            </nav>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

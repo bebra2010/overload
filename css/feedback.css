@@ -1,0 +1,138 @@
+.feedback
+{
+    background: url(/img/home/someQuestions.png) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+
+    height: 720px;
+}
+.feedback__title
+{
+    text-align: center;
+    padding-top: 5%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.feedback__text
+{
+    color: white;
+    font-family: "Rubik Mono One";
+    height: fit-content;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+.feedback__desc { color: white; font-family: "Century Gothic"; }
+.feedback > .container
+{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 20% 1fr;
+    grid-template-rows: 200px 1fr 100px;
+    justify-items: center;
+    align-items: center;
+}
+.feedbackBTN
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.feedbackWrite,
+.feedbackCallback
+{
+    height: fit-content;
+    text-align: center;
+}
+.container > h3 { font-size: 50px; }
+.feedbackWrite
+{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 20% 80px 10%;
+    align-content: center;
+}
+
+.feedbackWrite > .feedback__text
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.feedbackWrite > .feedback__desc
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: flex-start;
+}
+
+.feedbackCallback
+{
+    display: grid;
+}
+.callbackBTN
+{
+    width: 50%;
+    font-family: "Century Gothic";
+    justify-self: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.feedbackBTN
+{
+    font-family: "Rubik Mono One";
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-width: 1px;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+.feedback__desc
+{
+    display: flex;
+    justify-content: center;
+}
+.callbackInput
+{
+    font-family: "Century Gothic";
+    box-sizing: border-box;
+    padding: 7px 10px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+input { margin: 2px; }
+a > input:hover
+{
+    background-color: #fed99f;
+    transition: 0.2s;
+}
+
+@media(max-width: 768px)
+{
+    .feedback__title
+    {
+        color: white;
+        font-size: xx-large;
+        font-family: "Rubik Mono One";
+        margin: 25% 0 3% 0; 
+    }
+    .feedback > .container
+    {
+        display: flex;
+        gap: 15px;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+        height: fit-content;
+    }
+    .feedbackWrite
+    {
+        height: fit-content;
+    }
+}

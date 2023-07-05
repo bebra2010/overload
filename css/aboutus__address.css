@@ -1,0 +1,59 @@
+.upperMap > div > .icon
+{
+    fill: #292929;
+    width: 40px;
+    padding: 0 10px;
+}
+.address__text,
+.employees__text,
+.employees__desc,
+.brandstory__text
+{ font-family: "Century Gothic"; }
+.address__title
+{
+    margin-top: 10%;
+    text-align: center;
+}
+.aboutus__address > .container
+{
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto auto 400px auto;
+}
+.upperMap
+{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+.upperMap > div
+{
+    display: flex;
+    align-items: center;
+}
+.middleMap
+{
+    width: 100%;
+}
+.underMap
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    height: fit-content;
+}
+.address__text
+{
+    height: fit-content;
+    font-size: larger;
+}
+.phone
+{
+    grid-column-start: 7;
+    justify-self: flex-end;
+}
+.phone__text { justify-self: flex-end; }
+
+.aboutus__map
+{
+    width: 100%;
+}

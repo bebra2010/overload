@@ -1,0 +1,48 @@
+.process__text { font-family: "Rubik Mono One"; }
+.process__desc { font-family: "Century Gothic"; font-style: italic;}
+.process > .container
+{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.process__title
+{
+    height: fit-content;
+    text-align: center;
+    margin: 5% 0; 
+}
+.process__body
+{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, fit-content);
+    height: fit-content;
+    margin-top: 5%;
+}
+.process__text,
+.process__desc
+{
+    height: fit-content;
+    text-align: center;
+}
+.process__body > .icon { fill: #292929; }
+
+@media(max-width: 768px)
+{
+    .process__body
+    {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr;
+        height: fit-content;
+        margin-top: 0;
+    }
+    .first__text { grid-row-start: 2; }
+    .HOMEmed { grid-row-start: 4; }
+    .second__text { grid-row-start: 5; }
+    .HOMErocket { grid-row-start: 7; }
+    .third__text { grid-row-start: 8; }
+    .HOMErunning, .HOMEmed, .HOMErocket { align-self: flex-end; }
+}
